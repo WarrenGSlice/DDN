@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100% auto;
+  height: auto;
+  color: white;
+  margin-bottom: 50px;
+  background-color: darkgray;
+  padding: 55px;
+}
+
+.contact{
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  background: #303030;
+  padding: 15px;
+  right: 0;
+  bottom: 150px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.footer {
+  width: 100% auto;
+  background: black;
+  padding: 15px;
+  color: white;
+  text-indent: 55px;
+  font-size: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+}

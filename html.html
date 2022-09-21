@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<style>
+.item1 { grid-area: header;color:white;}
+.item3 { grid-area: main;color:white }
+.item4 { grid-area: right;color:white }
+.item5 { grid-area: footer; color:white}
+
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header header header header'
+    'main main main right right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 20px;
+  background-color: white;
+  padding: 35px;
+}
+.grid-container > div {
+  background-color: #606060;
+  text-align: left;
+
+</style>
+  
+
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+<div class="header" style="font-family: helvetica;"> HoldingCompany </div>
+
+<div class="grid-container">
+  <div class="item1" style="padding:80px; margin-left:50px; margin-right:50px; text-indent: -10px;">Box A</div>
+  <div class="item3" style="padding:55px; margin-left:50px">Box B</div>  
+  <div class="item4" style="padding:55px; margin-right:50px">Box C</div>
+  <div class="item5" style="padding:80px; margin-left:50px; margin-right:50px; text-indent:-10px">Box D</div>
+</div>
+<!-- <div class="boxa" style="font-family: helvetica;"> Box A</div> -->
+
+<!-- <div class="parent">
+	<div class="boxb" style="font-family: helvetica;">Box B</div>
+	<div class="boxc" style="font-family: helvetica;">Box C</div>
+</div>
+
+<div class="boxd" style="font-family:helvetica;"> Box D </div> -->
+
+
+<div class="contact" style="font-family: helvetica;">Contact Us</div>	
+
+
+<div class="footer" style="font-family: helvetica";>Footer</div>
+
+
+
+
+</body>
+</html>
